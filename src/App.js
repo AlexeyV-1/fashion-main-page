@@ -1,16 +1,18 @@
 // npm start
-// Сюда собираем компоненты
-import Header from "./components/header/Header";
 
-function App() {
+import Header from "./components/header/Header";
+import Promo from "./components/promo/Promo";
+
+export default function App() {
+
+  // Сюда собираем компоненты
 
   return (
     <div className="App">
 
       <Header />
+      <Promo />
 
     </div>
   );
 }
-
-export default App;

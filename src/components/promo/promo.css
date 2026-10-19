@@ -1,0 +1,79 @@
+.promo {
+    margin-bottom: 63px;
+}
+
+.promo__content {
+    border-radius: 59px;
+    background-color: #f4f6f5;
+
+    display: flex;
+    column-gap: 24px;
+    padding: 68px 0 0 120px;
+}
+
+.promo__title {
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 120px;
+    max-width: 474px;
+    margin-bottom: 40px;
+}
+
+.promo__description {
+    font-size: 32px;
+    letter-spacing: -0.05em;
+    margin-bottom: 51px;
+}
+
+.promo__btn {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: -0.05em;
+    color: white;
+
+    padding: 19px 40px;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.promo__btn-wrapper {
+    display: flex;
+    gap: 34px;
+    align-items: center;
+}
+
+.promo__btn-wrapper::before {
+    content: '';
+    display: inline-block;
+    width: 190px;
+    height: 32px;
+    background-image: url('./../../img/icons/decor-yellow.svg');
+}
+
+.highlight {
+    position: relative;
+    display: inline-block;
+}
+
+.highlight span {
+    position: relative;
+}
+
+.highlight::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -12px;
+    bottom: -12px;
+    left: -10px;
+    right: -180px;
+    background-color: white;
+    transform: rotate(-2deg);
+}
+
+.highlight--yellow::before {
+    background-color: #EBD96B;
+    right: -110px;
+}
