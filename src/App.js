@@ -2,6 +2,7 @@
 
 import Header from "./components/header/Header";
 import Promo from "./components/promo/Promo";
+import Brands from "./components/brands/Brands";
 
 export default function App() {
 
@@ -12,6 +13,7 @@ export default function App() {
 
       <Header />
       <Promo />
+      <Brands />
 
     </div>
   );
